@@ -2,6 +2,7 @@
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/vim-coffee-script.vim
+set runtimepath^=~/.vim/bundle/fugitive.vim
 
 set number                      "Show line numbers
 set backspace=indent,eol,start  "Allow backspace in insert mode
@@ -15,21 +16,7 @@ set ruler                       "Show colum and line in the bottom right corner
 syntax on                       "turn on syntax highlighting
 set spell spelllang=en_us       "Spell check
 
-" This makes vim act like all other editors, buffers can
-" exist in the background without being in a window.
-" http://items.sjbach.com/319/configuring-vim-right
 set hidden
-
-" Change leader to a comma
-" The mapleader has to be set before vundle starts loading all 
-" the plugins.
-" let mapleader=","
-
-" This loads all the plugins specified in ~/.vim/vundle.vim
-" Use Vundle plugin to manage all other plugins
-" if filereadable(expand("~/.vim/vundles.vim"))
-"   source ~/.vim/vundles.vim
-" endif
 
 " ################ Turn Off Swap Files ##############
 
