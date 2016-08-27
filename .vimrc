@@ -1,5 +1,8 @@
 " #### General Config ####
 
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/.vim/bundle/vim-coffee-script.vim
+
 set number                      "Show line numbers
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
@@ -10,6 +13,7 @@ set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
 set ruler                       "Show colum and line in the bottom right corner
 syntax on                       "turn on syntax highlighting
+set spell spelllang=en_us       "Spell check
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
@@ -23,9 +27,9 @@ set hidden
 
 " This loads all the plugins specified in ~/.vim/vundle.vim
 " Use Vundle plugin to manage all other plugins
-if filereadable(expand("~/.vim/vundles.vim"))
-  source ~/.vim/vundles.vim
-endif
+" if filereadable(expand("~/.vim/vundles.vim"))
+"   source ~/.vim/vundles.vim
+" endif
 
 " ################ Turn Off Swap Files ##############
 
