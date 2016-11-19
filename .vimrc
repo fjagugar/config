@@ -4,6 +4,8 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/vim-coffee-script.vim
 set runtimepath^=~/.vim/bundle/fugitive.vim
 
+set background=dark
+
 set number                      "Show line numbers
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
@@ -14,6 +16,7 @@ set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
 set ruler                       "Show colum and line in the bottom right corner
 syntax on                       "turn on syntax highlighting
+au FileType python setl sw=4 sts=4 et "4 spaces for Python files indentation
 set spell spelllang=en_us       "Spell check
 
 set hidden
