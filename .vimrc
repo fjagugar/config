@@ -80,3 +80,8 @@ set wildignore+=*.png,*.jpg,*.gif
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
+
+" ============== Maps =========================
+" Maximize splits
+nnoremap <C-W>M <C-W>\| <C-W>_
+nnoremap <C-W>m <C-W>=
