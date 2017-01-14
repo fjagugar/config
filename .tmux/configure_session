@@ -1,0 +1,6 @@
+rename-window docker
+neww -n vim vim
+neww -n git
+neww -n arc
+neww -n server
+selectw -t 0
