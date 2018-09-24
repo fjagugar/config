@@ -1,5 +1,10 @@
 " #### General Config ####
 
+set rtp+=/Users/agugar/Library/Python/3.7/lib/python/site-packages/powerline/bindings/vim
+
+set laststatus=2
+set t_Co=256
+
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set runtimepath^=~/.vim/bundle/vim-coffee-script.vim
 set runtimepath^=~/.vim/bundle/fugitive.vim
